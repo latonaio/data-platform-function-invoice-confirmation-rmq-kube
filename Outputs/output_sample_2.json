@@ -1,0 +1,25 @@
+{
+  "connection_key": "response",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 101,
+  "service_label": "INVOICE_CONFIRMATION",
+  "message": {
+    "Header": null,
+    "Item": [
+      {
+        "InvoiceDocument": 90000032,
+        "InvoiceDocumentItem": 2,
+        "ItemBillingIsConfirmed": true
+      }
+    ]
+  },
+  "api_schema": "DPFMInvoiceConfirmation",
+  "accepter": [
+    "All"
+  ],
+  "deleted": false
+}
